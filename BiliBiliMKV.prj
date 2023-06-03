@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1231536644" file="D:\MatlabDrive\Projects\BilibiliMKV\BiliBiliMKV.prj" location="D:\MatlabDrive\Projects\BilibiliMKV" name="BiliBiliMKV" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="709954675" file="D:\MatlabDrive\Projects\BilibiliMKV\BiliBiliMKV.prj" location="D:\MatlabDrive\Projects\BilibiliMKV" name="BiliBiliMKV" target="target.mlapps" target-name="打包为 App">
     <param.appname>BiliBiliMKV</param.appname>
     <param.authnamewatermark>Ran Zhu</param.authnamewatermark>
     <param.email>gemina_cat@163.com</param.email>
@@ -9,15 +9,14 @@
     <param.summary>从安卓手机B站客户端提取缓存文件，合并输出MKV，并按视频信息自动重命名。</param.summary>
     <param.description>B站安卓客户端缓存视频提取 - 自动化脚本
  Author: Ran Zhu @ Southeast Unitversity
- V 0.1
+ V 1.0
 
 写论文摸鱼时瞎搞的，凑合能用。
 
  视频信息在纯数字文件夹\分P\entry.json文件中
  其中title为视频标题，quality_pithy_description为分辨率，owner_name为UP主姓名，bvid为视频号
- 依赖项: ------- # JSONLab: compact, portable, robust JSON/binary-JSON encoder/decoder for MATLAB/Octave  See  https://github.com/fangq/jsonlab 
-                       # MKVToolNix – Matroska tools for Linux/Unix and Windows           See https://www.matroska.org/</param.description>
-    <param.screenshot>C:\Users\gemin\AppData\Local\Temp\tpf9aff7d3_2fc8_4b0c_a361_a5fa6a17a07d.png</param.screenshot>
+ 依赖项: -------  # MKVToolNix – Matroska tools for Linux/Unix and Windows           See https://www.matroska.org/</param.description>
+    <param.screenshot>C:\Users\gemin\AppData\Local\Temp\tp11333c7b_64ec_4ffb_9a7e_2158c7836db8.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name />
     <param.products.id />
