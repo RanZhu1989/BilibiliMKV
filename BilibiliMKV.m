@@ -31,7 +31,7 @@ for i = 1:length(subfolders)
         subsubsubfolder_path = fullfile(subsubfolder_path, subsubsubfolders(1).name);
         % 获取文件夹中的entry.json中的内容
         entry_file_path = fullfile(subsubfolder_path, 'entry.json');
-        entry_file = loadjson(entry_file_path);
+        entry_file = jsondecode(fileread(entry_file_path));
         title = regexprep(entry_file.title, '[^\w]+', ''); % 需要加入正则表达式去掉标点 否则奇怪的文件名会出错
         if isfield(entry_file, 'page_data') 
             part = num2str(entry_file.page_data.page); % 可能存在分P

@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="709954675" file="D:\MatlabDrive\Projects\BilibiliMKV\BiliBiliMKV.prj" location="D:\MatlabDrive\Projects\BilibiliMKV" name="BiliBiliMKV" target="target.mlapps" target-name="打包为 App">
+  <configuration build-checksum="832224886" file="D:\MatlabDrive\Projects\BilibiliMKV\BiliBiliMKV.prj" location="D:\MatlabDrive\Projects\BilibiliMKV" name="BiliBiliMKV" target="target.mlapps" target-name="打包为 App">
     <param.appname>BiliBiliMKV</param.appname>
     <param.authnamewatermark>Ran Zhu</param.authnamewatermark>
     <param.email>gemina_cat@163.com</param.email>
@@ -16,8 +16,8 @@
  视频信息在纯数字文件夹\分P\entry.json文件中
  其中title为视频标题，quality_pithy_description为分辨率，owner_name为UP主姓名，bvid为视频号
  依赖项: -------  # MKVToolNix – Matroska tools for Linux/Unix and Windows           See https://www.matroska.org/</param.description>
-    <param.screenshot>C:\Users\gemin\AppData\Local\Temp\tp11333c7b_64ec_4ffb_9a7e_2158c7836db8.png</param.screenshot>
-    <param.version>1.0</param.version>
+    <param.screenshot>C:\Users\gemin\AppData\Local\Temp\tp390bcfdb_956a_497a_a809_2bca00d51b55.png</param.screenshot>
+    <param.version>1.05</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -27,7 +27,6 @@
     <unset>
       <param.icon />
       <param.icons />
-      <param.version />
       <param.products.name />
       <param.products.id />
       <param.products.version />
@@ -37,19 +36,7 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\BilibiliMKV_GUI.mlapp</file>
     </fileset.main>
-    <fileset.depfun>
-      <file>C:\Users\gemin\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\jsonlab\base64decode.m</file>
-      <file>C:\Users\gemin\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\jsonlab\encodevarname.m</file>
-      <file>C:\Users\gemin\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\jsonlab\fast_match_bracket.m</file>
-      <file>C:\Users\gemin\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\jsonlab\isoctavemesh.m</file>
-      <file>C:\Users\gemin\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\jsonlab\jdatadecode.m</file>
-      <file>C:\Users\gemin\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\jsonlab\jsonopt.m</file>
-      <file>C:\Users\gemin\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\jsonlab\loadjson.m</file>
-      <file>C:\Users\gemin\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\jsonlab\match_bracket.m</file>
-      <file>C:\Users\gemin\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\jsonlab\mergestruct.m</file>
-      <file>C:\Users\gemin\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\jsonlab\nestbracket2dim.m</file>
-      <file>C:\Users\gemin\AppData\Roaming\MathWorks\MATLAB Add-Ons\Toolboxes\jsonlab\varargin2struct.m</file>
-    </fileset.depfun>
+    <fileset.depfun />
     <fileset.resources>
       <file>${PROJECT_ROOT}\BilibiliMKV.m</file>
     </fileset.resources>
